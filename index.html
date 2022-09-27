@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <title>Juego del ahorcado</title>
+</head>
+
+<!-- <header>
+    <img src="imgs/logo.png" alt="logo"/>
+</header> -->
+<body>
+    <div class="hombre-ahorcado">
+        <img src="./imgs/estados/01.png" id="hombre" alt="hombre-ahorcado" />
+    </div>
+    <div class="adivinado">
+        <span class="letra adivinada">A</span>
+        <span class="letra adivinada">L</span>
+        <span class="letra adivinada"></span>
+        <span class="letra adivinada"></span>
+        <span class="letra adivinada">A</span>
+    </div>
+    <div class="errado">
+        <span class="letra errada">B</span>
+        <span class="letra errada">J</span>
+        <span class="letra errada">K</span>
+        <span class="letra errada">C</span>
+    </div>
+    <form class="botones" action="javascript:void(0)">
+        <input type="button" class="btn-azul" value="Nuevo juego">
+        <input type="button" value="Desistir">
+    </form>
+
+</body>
+</html>
