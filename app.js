@@ -3,8 +3,8 @@
     
     var palabras = [
       'ALURA',
-      'NIÑO',
-      'AFINIDAD',
+      'GOOGLE',
+      'DEVELOPER',
       'PROGRAMAR',
       'ORACLE',
       'YOUTUBE'
@@ -157,4 +157,3 @@
     nuevoJuego()
     
     }())
-    
